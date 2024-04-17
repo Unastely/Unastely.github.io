@@ -78,3 +78,26 @@ p {
     margin-left: 50px;
 }
 
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.image1, .image2 {
+    width: 200px; /* задаем размеры картинок */
+    height: auto;
+}
+
+.image2 {
+    display: none;
+}
+
+#imageButton.clicked .image1 {
+    display: none;
+}
+
+#imageButton.clicked .image2 {
+    display: inline-block;
+}
